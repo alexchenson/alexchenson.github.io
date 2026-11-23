@@ -3,134 +3,142 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alex Henson — University of North Carolina at Chapel Hill</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Alex Henson: GIS Portfolio</title>
+<meta name="description" content="GIS portfolio of Alex Henson, University of North Carolina at Chapel Hill: maps of terrain, coastlines, and transportation made in ArcGIS Pro.">
+<link rel="preload" href="fonts/archivo-latin-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin-opsz.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <header class="site-header">
   <div class="wrap header-inner">
-    <span class="wordmark">A. Henson</span>
-    <nav>
+    <a class="wordmark" href="index.html">Alex Henson</a>
+    <nav class="site-nav" aria-label="Main">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
+      <a href="projects.html">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="main">
 
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <svg class="arch" viewBox="0 0 600 300" aria-hidden="true">
-        <path d="M0,300 L0,140 A300,300 0 0 1 600,140 L600,300" fill="none" stroke="currentColor" stroke-width="1.5"/>
-        <line x1="60" y1="140" x2="60" y2="300" stroke="currentColor" stroke-width="1.5"/>
-        <line x1="540" y1="140" x2="540" y2="300" stroke="currentColor" stroke-width="1.5"/>
-        <line x1="160" y1="80" x2="160" y2="300" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-        <line x1="440" y1="80" x2="440" y2="300" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-      </svg>
-
-      <p class="eyebrow">University of North Carolina at Chapel Hill</p>
-      <h1 class="display-name">
-        Alex Henson
-        <span class="underline" aria-hidden="true"></span>
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero-text">
+      <h1 id="page-title" class="display">
+        <span class="name">Alex Henson</span>
+        <span class="portfolio-title">GIS Portfolio</span>
       </h1>
-      <p class="hero-role">Researcher &amp; Educator</p>
-      <p class="hero-desc">
-        Welcome to my academic homepage. Here you'll find an overview of my research,
-        selected publications, and ways to get in touch.
+      <p class="hero-lede">
+        Maps I made at the University of North Carolina at Chapel Hill: terrain,
+        coastlines and seafloor, and the roads that run between them.
       </p>
+      <a class="button" href="projects.html">View projects</a>
     </div>
+
+    <figure class="hero-map">
+      <img src="images/hero-saint-john-topography.jpg" width="1086" height="514"
+           alt="Detail of a topographic map of St. John, U.S. Virgin Islands, with elevation colored from green at the coast to brown on the central ridge and contour lines every 100 meters.">
+      <figcaption>
+        Detail from <a href="projects.html#saint-john">Saint John: Terrain and Nature</a>,
+        built from a USGS 1-meter elevation model.
+      </figcaption>
+    </figure>
   </section>
 
-  <section id="about" class="section">
-    <div class="wrap two-col">
-      <h2 class="section-title">About</h2>
-      <div class="section-body">
-        <p>
-          I'm a member of the academic community at the University of North Carolina at
-          Chapel Hill, working at the intersection of teaching, research, and public
-          service. This page serves as a home for my current projects, publications,
-          and contact information.
-        </p>
-        <p>
-          Replace this text with a short bio: your department, research interests,
-          and what drives your work. Two or three sentences is plenty — this section
-          should orient a visitor quickly.
-        </p>
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="wrap section-grid">
+      <h2 id="about-title" class="section-title">About</h2>
+
+      <div class="about-body">
+        <!-- To add your photo: put headshot.jpg in the images folder, then replace
+             the line "Your photo here" below with:
+             <img src="images/headshot.jpg" alt="Alex Henson"> -->
+        <figure class="headshot">
+          Your photo here
+        </figure>
+
+        <div class="bio">
+          <!-- Fill in the highlighted parts, then delete the <mark class="todo"> tags. -->
+          <p>
+            I'm a <mark class="todo">[year]</mark> at UNC-Chapel Hill studying
+            <mark class="todo">[major]</mark>. I like maps that explain something physical:
+            how high the ground is, how deep the water gets, and where a road can and
+            can't go.
+          </p>
+          <p>
+            Most of my work so far is in ArcGIS Pro, built from elevation models,
+            satellite imagery, and land cover data. After graduation I want to
+            <mark class="todo">[your goal, for example work in environmental planning or go to graduate school in geography]</mark>.
+          </p>
+
+          <div class="skills">
+            <h3>GIS skills</h3>
+            <ul>
+              <li>ArcGIS Pro: layout, symbology, and labeling</li>
+              <li>Elevation models, hillshades, and contours</li>
+              <li>Satellite imagery (Sentinel-2) and land cover data</li>
+              <li><mark class="todo">[Python, R, or other tools you've used]</mark></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="research" class="section alt">
-    <div class="wrap two-col">
-      <h2 class="section-title">Research</h2>
-      <div class="section-body">
-        <div class="card">
-          <h3>Project title one</h3>
-          <p>
-            A one or two sentence description of this project: the question it asks,
-            the method, and why it matters.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Project title two</h3>
-          <p>
-            Describe a second area of work here. Link out to a project page, GitHub
-            repository, or lab site if you have one.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Project title three</h3>
-          <p>
-            A third project or ongoing line of inquiry. Keep these short — link to
-            longer write-ups elsewhere.
-          </p>
-        </div>
-      </div>
+  <section id="projects" class="section" aria-labelledby="projects-title">
+    <div class="wrap section-grid">
+      <h2 id="projects-title" class="section-title">Projects</h2>
+
+      <ul class="work-list">
+        <li>
+          <a class="work-item" href="projects.html#saint-john">
+            <div class="work-thumb">
+              <img src="images/thumbs/saint-john-terrain-and-nature.jpg" width="480" height="371" alt="" loading="lazy">
+            </div>
+            <div>
+              <h3>Saint John: Terrain and Nature</h3>
+              <p>Elevation, ocean depth, tree canopy, and seafloor habitat of St. John, U.S. Virgin Islands, in four panels.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="work-item" href="projects.html#portland-terrain">
+            <div class="work-thumb">
+              <img src="images/thumbs/portland-terrain.jpg" width="480" height="366" alt="" loading="lazy">
+            </div>
+            <div>
+              <h3>Portland Terrain</h3>
+              <p>Elevation, rivers, and contours inside the Tri-Metro boundary.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="work-item" href="projects.html#portland-roads">
+            <div class="work-thumb">
+              <img src="images/thumbs/portland-roads-and-airports.jpg" width="480" height="621" alt="" loading="lazy">
+            </div>
+            <div>
+              <h3>Portland Roads and Airports</h3>
+              <p>Interstates, highways, local roads, and Portland International Airport over the region's terrain.</p>
+            </div>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <section id="publications" class="section">
-    <div class="wrap two-col">
-      <h2 class="section-title">Publications</h2>
-      <div class="section-body">
-        <ul class="pub-list">
-          <li>
-            <span class="pub-year">2026</span>
-            <span class="pub-text">Henson, A. "Example article title here." <em>Journal Name</em>, vol. X, no. Y, pp. 1–20.</span>
-          </li>
-          <li>
-            <span class="pub-year">2025</span>
-            <span class="pub-text">Henson, A., &amp; Collaborator, B. "Another example title." <em>Conference or Journal</em>.</span>
-          </li>
-          <li>
-            <span class="pub-year">2024</span>
-            <span class="pub-text">Henson, A. "A third example publication." <em>Publisher / Venue</em>.</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section alt">
-    <div class="wrap two-col">
-      <h2 class="section-title">Contact</h2>
-      <div class="section-body">
-        <p>
-          <strong>Alex Henson</strong><br>
-          University of North Carolina at Chapel Hill<br>
-          Chapel Hill, NC
-        </p>
-        <p>
-          Email: <a href="mailto:your-email@unc.edu">your-email@unc.edu</a><br>
-          Office: Building Name, Room ###
-        </p>
+  <section id="contact" class="section" aria-labelledby="contact-title">
+    <div class="wrap section-grid">
+      <h2 id="contact-title" class="section-title">Contact</h2>
+      <div class="contact-lines">
+        <!-- Replace the email address in both places (href and text). -->
+        <p><span class="label">Email</span> <a href="mailto:your-email@unc.edu"><mark class="todo">your-email@unc.edu</mark></a></p>
+        <p><span class="label">GitHub</span> <a href="https://github.com/alexchenson">github.com/alexchenson</a></p>
       </div>
     </div>
   </section>
@@ -139,7 +147,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>&copy; 2026 Alex Henson · University of North Carolina at Chapel Hill</p>
+    <p>&copy; 2026 Alex Henson, University of North Carolina at Chapel Hill</p>
   </div>
 </footer>
 
