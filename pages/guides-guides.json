@@ -1,0 +1,1983 @@
+{
+  "frames": [
+    {
+      "component": {
+        "COMPONENT_NAME_PREFIX": "",
+        "attributes": {
+          "id": "i5lz0a"
+        },
+        "components": [
+          {
+            "attributes": {
+              "href": "#main-content"
+            },
+            "classes": [
+              "skip-link"
+            ],
+            "components": [
+              {
+                "content": "Skip to main content",
+                "type": "textnode"
+              }
+            ],
+            "custom-name": "skip-to-main-content",
+            "type": "link"
+          },
+          {
+            "__symbol": "iahj-2",
+            "attributes": {
+              "id": "iahj-2-3-2"
+            },
+            "classes": [
+              "docs-header"
+            ],
+            "components": [
+              {
+                "__symbol": "iao9-2",
+                "attributes": {
+                  "id": "iao9-2-3-2"
+                },
+                "classes": [
+                  "docs-header__inner"
+                ],
+                "components": [
+                  {
+                    "__symbol": "io9d-2",
+                    "attributes": {
+                      "href": "./",
+                      "id": "io9d-2-3-2"
+                    },
+                    "classes": [
+                      "docs-header__logo"
+                    ],
+                    "components": [
+                      {
+                        "__symbol": "io8b-2",
+                        "attributes": {
+                          "id": "io8b-2-3-2"
+                        },
+                        "components": [
+                          {
+                            "__symbol": "if8lpx",
+                            "attributes": {
+                              "id": "iahaly"
+                            },
+                            "content": "Alex Clifford Henson",
+                            "type": "textnode"
+                          },
+                          {
+                            "__symbol": "i2mdih",
+                            "attributes": {
+                              "id": "imt06r"
+                            },
+                            "tagName": "br",
+                            "void": true
+                          }
+                        ],
+                        "tagName": "span",
+                        "type": "text"
+                      }
+                    ],
+                    "tagName": "a"
+                  },
+                  {
+                    "__symbol": "ir50ah-2",
+                    "attributes": {
+                      "checked": false,
+                      "id": "ir50ah-4-2",
+                      "type": "checkbox"
+                    },
+                    "classes": [
+                      "navbar__checkbox"
+                    ],
+                    "plugin-unwrap": false,
+                    "privateStates": [
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "nav-toggle"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "ir50ah-i6rx6757cpo",
+                        "label": "id"
+                      }
+                    ],
+                    "selector": {
+                      "atRule": "@media (max-width: 768px)",
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ir50ah"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "navbar__checkbox"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "after",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ~ ",
+                        "type": "~"
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "navbar__checkbox"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "checkbox",
+                    "void": true
+                  },
+                  {
+                    "__symbol": "iccte6-5-5-5-5-2",
+                    "attributes": {
+                      "for": "nav-toggle",
+                      "id": "iccte6-5-5-5-5-4-2"
+                    },
+                    "classes": [
+                      "navbar__toggle"
+                    ],
+                    "components": [
+                      {
+                        "__symbol": "iihy5b-5-5-5-2",
+                        "attributes": {
+                          "id": "iihy5b-5-5-5-4-2"
+                        },
+                        "content": "☰",
+                        "type": "textnode"
+                      }
+                    ],
+                    "custom-name": "navbar__toggle",
+                    "privateStates": [
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "button"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "iccte6-5-5-5-5-o9taoqq1j4h",
+                        "label": "role"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "0"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "iccte6-5-5-5-5-3vjgvyfvndm",
+                        "label": "tabindex"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "if(event.key === 'Enter') { document.getElementById('nav-toggle').checked = !document.getElementById('nav-toggle').checked; }"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "iccte6-5-5-5-5-3-2-hhzfxxu0ijk",
+                        "label": "onkeydown"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "Open the menu"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "iccte6-5-5-5-5-3-2-3k2wo5tv48s",
+                        "label": "aria-label"
+                      }
+                    ],
+                    "selector": {
+                      "atRule": "@media (max-width: 768px)",
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "iccte6-5-5-5-5-3-2"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "navbar__toggle"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "text"
+                  },
+                  {
+                    "__symbol": "ivhe-3-3-3",
+                    "attributes": {
+                      "id": "ivhe-3-3-4-2"
+                    },
+                    "classes": [
+                      "navbar__menu"
+                    ],
+                    "components": [
+                      {
+                        "__symbol": "i3snd-3-3-3",
+                        "attributes": {
+                          "href": "./docs.html",
+                          "id": "i3snd-3-3-4-2"
+                        },
+                        "classes": [
+                          "docs-header__link"
+                        ],
+                        "components": [
+                          {
+                            "__symbol": "i4zqle",
+                            "attributes": {
+                              "id": "ih7zjh"
+                            },
+                            "content": "Portfolio",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "i3snd-3-3-5-2"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "docs-header__link"
+                              }
+                            ]
+                          }
+                        },
+                        "tagName": "a",
+                        "type": "text"
+                      },
+                      {
+                        "__symbol": "ikrbh-3-3-3",
+                        "attributes": {
+                          "href": "./guides.html",
+                          "id": "ikrbh-3-3-4-2"
+                        },
+                        "classes": [
+                          "docs-header__link"
+                        ],
+                        "content": "Guides",
+                        "tagName": "a",
+                        "type": "text"
+                      },
+                      {
+                        "__symbol": "iq19r-3-3-3",
+                        "attributes": {
+                          "href": "./guides.html#api",
+                          "id": "iq19r-3-3-4-2"
+                        },
+                        "classes": [
+                          "docs-header__link"
+                        ],
+                        "content": "API",
+                        "tagName": "a",
+                        "type": "text"
+                      },
+                      {
+                        "__symbol": "ijbyf-3-3-3",
+                        "attributes": {
+                          "href": "https://github.com",
+                          "id": "ijbyf-3-3-4-2",
+                          "target": "_blank"
+                        },
+                        "classes": [
+                          "docs-header__link"
+                        ],
+                        "content": "GitHub",
+                        "tagName": "a",
+                        "type": "text"
+                      }
+                    ],
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "ivhe-3-2"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "navbar__menu"
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "displayName": "after",
+                        "hasParam": false,
+                        "helpLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator",
+                        "isCombinator": true,
+                        "sentencePre": "When it is",
+                        "stringRepresentation": " ~ ",
+                        "type": "~"
+                      },
+                      "relatedSelector": {
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "navbar__checkbox"
+                          }
+                        ]
+                      }
+                    },
+                    "tagName": "nav"
+                  },
+                  {
+                    "__symbol": "i909vu-2-2",
+                    "attributes": {
+                      "for": "nav-toggle",
+                      "id": "i909vu-2-3-2"
+                    },
+                    "classes": [
+                      "navbar__overlay"
+                    ],
+                    "custom-name": "navbar__overlay",
+                    "privateStates": [
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "nav-toggle"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-7-37n8owg5d86",
+                        "label": "for"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "0"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-jxhdl799m4t",
+                        "label": "tabindex"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "close menu"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-y2fq5k5blke",
+                        "label": "aria-label"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "button"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-9jlkubr97zr",
+                        "label": "role"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "if(event.key === 'Enter') { this.click(); document.querySelector('.navbar__toggle').focus(); }"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-3vvb4uziqiu",
+                        "label": "onkeydown"
+                      },
+                      {
+                        "expression": [
+                          {
+                            "fieldId": "fixed",
+                            "kind": "scalar",
+                            "label": "Fixed value",
+                            "options": {
+                              "value": "document.querySelector('.navbar__toggle').focus();"
+                            },
+                            "propType": "field",
+                            "type": "property",
+                            "typeIds": [
+                              "String"
+                            ]
+                          }
+                        ],
+                        "id": "i909vu-2-7-4cwp350s4o8",
+                        "label": "onclick"
+                      }
+                    ],
+                    "selector": {
+                      "atRule": "@media (max-width: 768px)",
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "i909vu-2"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "navbar__overlay"
+                          }
+                        ]
+                      }
+                    },
+                    "tagName": "LABEL",
+                    "type": "container"
+                  }
+                ]
+              }
+            ],
+            "custom-name": "Header",
+            "tagName": "header"
+          },
+          {
+            "attributes": {
+              "id": "i8mbol"
+            },
+            "classes": [
+              "docs-main"
+            ],
+            "components": [
+              {
+                "attributes": {
+                  "id": "ispfdp"
+                },
+                "classes": [
+                  "docs-layout"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "i4h2j5"
+                    },
+                    "classes": [
+                      "docs-sidebar"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "ismi1n"
+                        },
+                        "classes": [
+                          "docs-sidebar__section"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "href": "./guides.html",
+                              "id": "i2vieo"
+                            },
+                            "classes": [
+                              "docs-sidebar__title"
+                            ],
+                            "content": "Guides",
+                            "originalTagName": "div",
+                            "tagName": "A",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "iqliky"
+                            },
+                            "classes": [
+                              "docs-sidebar__list"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "i9345q"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#authentication",
+                                      "id": "ihrk6i"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link",
+                                      "docs-sidebar__link--active"
+                                    ],
+                                    "content": "Authentication",
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ivi8i9"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#api",
+                                      "id": "ijkwgs"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link"
+                                    ],
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "ih7yoc"
+                                        },
+                                        "content": "API Reference",
+                                        "type": "textnode"
+                                      }
+                                    ],
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ivi8i9-2"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#data-fetching",
+                                      "id": "ijkwgs-2"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link"
+                                    ],
+                                    "content": "Data Fetching",
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "innhkt"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#error-handling",
+                                      "id": "iwstxp"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link"
+                                    ],
+                                    "content": "Error Handling",
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "innhkt-2"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#best-practices",
+                                      "id": "iwstxp-2-2"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link"
+                                    ],
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "i9ag3b-2"
+                                        },
+                                        "content": "Best Practices",
+                                        "type": "textnode"
+                                      }
+                                    ],
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "inldr1"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "href": "/guides#testing",
+                                      "id": "iops43"
+                                    },
+                                    "classes": [
+                                      "docs-sidebar__link"
+                                    ],
+                                    "content": "Testing",
+                                    "tagName": "a",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "li"
+                              }
+                            ],
+                            "tagName": "ul"
+                          }
+                        ]
+                      }
+                    ],
+                    "tagName": "aside"
+                  },
+                  {
+                    "attributes": {
+                      "id": "irzgf7"
+                    },
+                    "classes": [
+                      "docs-content"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i67p17"
+                        },
+                        "classes": [
+                          {
+                            "label": "docs-content__header",
+                            "name": "docs-content__header-hr"
+                          }
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "authentication"
+                            },
+                            "content": "Authentication Guide",
+                            "tagName": "h1",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "ioxa8j"
+                            },
+                            "classes": [
+                              "docs-content__description"
+                            ],
+                            "content": "Learn how to implement secure authentication in your DevDocs application.",
+                            "tagName": "p",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "attributes": {
+                          "id": "i27eeu"
+                        },
+                        "content": "DevDocs supports multiple authentication methods including API keys, OAuth 2.0, and JWT tokens. This guide covers the most common authentication patterns.",
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i4ka2v"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ijk4sz"
+                            },
+                            "content": "API Key Authentication",
+                            "tagName": "summary",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "ihe0pi"
+                            },
+                            "content": "The simplest form of authentication. Include your API key in the Authorization header: Authorization: Bearer YOUR_API_KEY",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "details"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iof8mg"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iopblh"
+                            },
+                            "content": "OAuth 2.0 Flow",
+                            "tagName": "summary",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "i35jsl"
+                            },
+                            "content": "For applications requiring user authorization, implement the OAuth 2.0 authorization code flow. Redirect users to the authorization endpoint, then exchange the code for access tokens.",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "details"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iy73js"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "izpedo"
+                            },
+                            "content": "JWT Token Authentication",
+                            "tagName": "summary",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "i9gegl"
+                            },
+                            "content": "JSON Web Tokens provide stateless authentication. Generate tokens on login and include them in subsequent requests. Tokens automatically expire after 24 hours by default.",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "details"
+                      },
+                      {
+                        "attributes": {
+                          "id": "api"
+                        },
+                        "content": "API Reference",
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "ijj13h"
+                        },
+                        "content": "The DevDocs API provides programmatic access to all platform features. All API endpoints return JSON responses.",
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iib0xx"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "io5q13"
+                            },
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "iphc2k"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "i4hte6"
+                                    },
+                                    "content": "Method",
+                                    "tagName": "th",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "i49lex"
+                                    },
+                                    "content": "Endpoint",
+                                    "tagName": "th",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "iou1qm"
+                                    },
+                                    "content": "Description",
+                                    "tagName": "th",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              }
+                            ],
+                            "tagName": "thead"
+                          },
+                          {
+                            "attributes": {
+                              "id": "idvuzg"
+                            },
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "i9o5cf"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "im7mnd"
+                                    },
+                                    "content": "GET",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ihrjcv"
+                                    },
+                                    "content": "/api/v1/docs",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "it9wvd"
+                                    },
+                                    "content": "List all documents",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "irhnef"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "imuoqk"
+                                    },
+                                    "content": "POST",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ib8xnz"
+                                    },
+                                    "content": "/api/v1/docs",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "iare8i"
+                                    },
+                                    "content": "Create a document",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ihckyl"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "inj30t"
+                                    },
+                                    "content": "GET",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ie4eyc"
+                                    },
+                                    "content": "/api/v1/docs/:id",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ia5lxj"
+                                    },
+                                    "content": "Get document by ID",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ihkmpg"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "im68ca"
+                                    },
+                                    "content": "PUT",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ingc8e"
+                                    },
+                                    "content": "/api/v1/docs/:id",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "iozuuv"
+                                    },
+                                    "content": "Update a document",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ierget"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "iasc6c"
+                                    },
+                                    "content": "DELETE",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "i87yfk"
+                                    },
+                                    "content": "/api/v1/docs/:id",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "imymoi"
+                                    },
+                                    "content": "Delete a document",
+                                    "tagName": "td",
+                                    "type": "text"
+                                  }
+                                ],
+                                "tagName": "tr"
+                              }
+                            ],
+                            "tagName": "tbody"
+                          }
+                        ],
+                        "tagName": "table"
+                      },
+                      {
+                        "attributes": {
+                          "id": "data-fetching"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ipxtym"
+                            },
+                            "content": "Data fetching",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i1ibbn"
+                        },
+                        "content": "Here are some common usage examples to help you get started:",
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "it0gfk"
+                        },
+                        "content": "Fetching Documents",
+                        "tagName": "h3",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i4iq6z"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ila2rk"
+                            },
+                            "content": "const response = await fetch('/api/v1/docs', {\n  headers: {\n    'Authorization': `Bearer ${apiKey}`,\n    'Content-Type': 'application/json'\n  }\n});\n\nconst docs = await response.json();\nconsole.log(docs);",
+                            "tagName": "code",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "pre"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iz0nbc"
+                        },
+                        "content": "Creating a Document",
+                        "tagName": "h3",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iw2zgp"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iaj7sr"
+                            },
+                            "content": "const newDoc = await fetch('/api/v1/docs', {\n  method: 'POST',\n  headers: {\n    'Authorization': `Bearer ${apiKey}`,\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({\n    title: 'New Document',\n    content: 'Document content here...'\n  })\n});\n\nconst result = await newDoc.json();",
+                            "tagName": "code",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "pre"
+                      },
+                      {
+                        "attributes": {
+                          "id": "isv6pq"
+                        },
+                        "classes": [
+                          "docs-callout",
+                          "docs-callout--success"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "i4jqlk"
+                            },
+                            "classes": [
+                              "docs-callout__title"
+                            ],
+                            "content": "Tip",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "ikkc7v"
+                            },
+                            "classes": [
+                              "docs-callout__content"
+                            ],
+                            "content": "Use our official SDK for easier integration. It handles authentication, retries, and error handling automatically.",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "attributes": {
+                          "id": "error-handling"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "icvcq4-2"
+                            },
+                            "content": "Error Handling",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "ifd2tj-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ib44rz-2"
+                            },
+                            "content": "Proper error management ensures a smooth user experience. We provide a global error boundary to catch and log issues automatically.",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "il1mah-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ioao0j-2"
+                            },
+                            "content": "DevDocs uses a standardized error reporting system to help you debug issues quickly. Errors are returned as objects containing a machine-readable code and a human-readable message.",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "error-types-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ii2g9e-2"
+                            },
+                            "content": "Standard Error Codes",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "icm4kj-2"
+                        },
+                        "classes": [
+                          "docs-table-wrapper"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iegjyv-2"
+                            },
+                            "classes": [
+                              "docs-table"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "i5suhy-2"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "issvky-2"
+                                    },
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "iedzxx-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "i0ptok-2"
+                                            },
+                                            "content": "Code",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "tagName": "th",
+                                        "type": "text"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "i7glan-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "izkks9-2"
+                                            },
+                                            "content": "Description",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "tagName": "th",
+                                        "type": "text"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "izqewi-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "idl545-2"
+                                            },
+                                            "content": "Action",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "tagName": "th",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "draggable": [
+                                      "thead",
+                                      "tbody",
+                                      "tfoot"
+                                    ],
+                                    "droppable": [
+                                      "th",
+                                      "td"
+                                    ],
+                                    "type": "row"
+                                  }
+                                ],
+                                "draggable": [
+                                  "table"
+                                ],
+                                "droppable": [
+                                  "tr"
+                                ],
+                                "type": "thead"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "iqihsz-2"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "inh7mq-2"
+                                    },
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "ify7gg-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "ixg6id-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "attributes": {
+                                                  "id": "i3k8dy-2"
+                                                },
+                                                "content": "ERR_AUTH_FAILED",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "tagName": "code",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "cell"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "ikx6eg-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "iohhfh-2"
+                                            },
+                                            "content": "Invalid or expired API credentials.",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "text"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "iybu0l-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "i0cf7l-2"
+                                            },
+                                            "content": "Refresh your token or check your config.",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "draggable": [
+                                      "thead",
+                                      "tbody",
+                                      "tfoot"
+                                    ],
+                                    "droppable": [
+                                      "th",
+                                      "td"
+                                    ],
+                                    "type": "row"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "ijob7k-2"
+                                    },
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "ish3q9-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "i28mmf-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "attributes": {
+                                                  "id": "ieagaj-2"
+                                                },
+                                                "content": "ERR_NETWORK",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "tagName": "code",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "cell"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "i9ia91-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "ia2xw6-2"
+                                            },
+                                            "content": "The SDK cannot reach the server.",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "text"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "i8f9g1-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "i3xtag-2"
+                                            },
+                                            "content": "Check your internet connection or firewall.",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "draggable": [
+                                      "thead",
+                                      "tbody",
+                                      "tfoot"
+                                    ],
+                                    "droppable": [
+                                      "th",
+                                      "td"
+                                    ],
+                                    "type": "row"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "id": "i97pxy-2"
+                                    },
+                                    "components": [
+                                      {
+                                        "attributes": {
+                                          "id": "iuq64j-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "icmm48-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "attributes": {
+                                                  "id": "iy6aia-2"
+                                                },
+                                                "content": "ERR_INVALID_CONFIG",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "tagName": "code",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "cell"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "ib3d35-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "i5ng2p-2"
+                                            },
+                                            "content": "Required parameters are missing in your setup.",
+                                            "type": "textnode"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "text"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "id": "iopexd-2"
+                                        },
+                                        "components": [
+                                          {
+                                            "attributes": {
+                                              "id": "ijtrfy-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "content": "Validate your ",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "id": "iknajz-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "attributes": {
+                                                  "id": "ivn1tg-2"
+                                                },
+                                                "content": "devdocs.config.js",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "tagName": "code",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "id": "ilcmod-2"
+                                            },
+                                            "components": [
+                                              {
+                                                "content": " file.",
+                                                "type": "textnode"
+                                              }
+                                            ],
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "draggable": [
+                                          "tr"
+                                        ],
+                                        "type": "cell"
+                                      }
+                                    ],
+                                    "draggable": [
+                                      "thead",
+                                      "tbody",
+                                      "tfoot"
+                                    ],
+                                    "droppable": [
+                                      "th",
+                                      "td"
+                                    ],
+                                    "type": "row"
+                                  }
+                                ],
+                                "draggable": [
+                                  "table"
+                                ],
+                                "droppable": [
+                                  "tr"
+                                ],
+                                "type": "tbody"
+                              }
+                            ],
+                            "droppable": [
+                              "tbody",
+                              "thead",
+                              "tfoot"
+                            ],
+                            "type": "table"
+                          }
+                        ]
+                      },
+                      {
+                        "attributes": {
+                          "id": "best-practices"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "i0xlph-2"
+                            },
+                            "content": "Best Practices",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "ise3uc-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "inskgh-2"
+                            },
+                            "content": "We recommend wrapping your SDK initialization and data calls in ",
+                            "type": "textnode"
+                          },
+                          {
+                            "attributes": {
+                              "id": "ion15q-2"
+                            },
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "imhzqp-2"
+                                },
+                                "content": "try...catch",
+                                "type": "textnode"
+                              }
+                            ],
+                            "tagName": "code",
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "i1vz6k-2"
+                            },
+                            "content": " blocks to prevent your application from crashing during unexpected failures.",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i1as74-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iuv6vj-2"
+                            },
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "iwmkvz-2"
+                                },
+                                "content": "try {\n  const data = await docs.fetch('/api/resource');\n} catch (error) {\n  if (error.code === 'ERR_AUTH_FAILED') {\n    redirectToLogin();\n  } else {\n    console.error('An unexpected error occurred:', error.message);\n  }\n}",
+                                "type": "textnode"
+                              }
+                            ],
+                            "tagName": "code",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "pre"
+                      },
+                      {
+                        "attributes": {
+                          "id": "iw27bh-2"
+                        },
+                        "classes": [
+                          "docs-callout",
+                          "docs-callout--info"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iw5l06-2"
+                            },
+                            "classes": [
+                              "docs-callout__title"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "inly9j-2"
+                                },
+                                "content": "Global Interceptor",
+                                "type": "textnode"
+                              }
+                            ],
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "i1wphg-2"
+                            },
+                            "classes": [
+                              "docs-callout__content"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "ily6nu-2"
+                                },
+                                "content": "\n      You can configure a global error handler in your initialization settings to log errors to services like Sentry or LogRocket automatically.\n    ",
+                                "type": "textnode"
+                              }
+                            ],
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "attributes": {
+                          "id": "i2e7sj-2"
+                        },
+                        "classes": [
+                          "docs-callout",
+                          "docs-callout--warning"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "i3hmy6-2"
+                            },
+                            "classes": [
+                              "docs-callout__title"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "i2a78q-2"
+                                },
+                                "content": "Important",
+                                "type": "textnode"
+                              }
+                            ],
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "ie4bu2-2"
+                            },
+                            "classes": [
+                              "docs-callout__content"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "i7mnhs-2"
+                                },
+                                "content": "\n      Always sanitize error messages before displaying them to end-users to avoid leaking sensitive server information.\n    ",
+                                "type": "textnode"
+                              }
+                            ],
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "attributes": {
+                          "id": "testing"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "iwjies-2"
+                            },
+                            "content": "Testing",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "h2",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "imy6gs-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "i8hbxx-2"
+                            },
+                            "content": "We recommend using Jest or Vitest to test your implementation. Use our testing utility to mock the DevDocs environment.",
+                            "type": "textnode"
+                          }
+                        ],
+                        "tagName": "p",
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i8ata2-2"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "ittknm-2"
+                            },
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "ikpilv-2"
+                                },
+                                "content": "import { renderDocs } from 'devdocs-testing-library';\n\ntest('renders introduction page', () => {\n  renderDocs('/intro');\n});",
+                                "type": "textnode"
+                              }
+                            ],
+                            "tagName": "code",
+                            "type": "text"
+                          }
+                        ],
+                        "tagName": "pre"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "privateStates": [
+              {
+                "expression": [
+                  {
+                    "fieldId": "fixed",
+                    "kind": "scalar",
+                    "label": "Fixed value",
+                    "options": {
+                      "value": "-1"
+                    },
+                    "propType": "field",
+                    "type": "property",
+                    "typeIds": [
+                      "String"
+                    ]
+                  }
+                ],
+                "id": "i8mbol-55skay1hx6i",
+                "label": "tabindex"
+              },
+              {
+                "expression": [
+                  {
+                    "fieldId": "fixed",
+                    "kind": "scalar",
+                    "label": "Fixed value",
+                    "options": {
+                      "value": "main-content"
+                    },
+                    "propType": "field",
+                    "type": "property",
+                    "typeIds": [
+                      "String"
+                    ]
+                  }
+                ],
+                "id": "i8mbol-8ymiy3imqv3",
+                "label": "id"
+              }
+            ],
+            "tagName": "main"
+          },
+          {
+            "__symbol": "ismqe-2",
+            "attributes": {
+              "id": "ismqe-2-3"
+            },
+            "classes": [
+              "docs-footer"
+            ],
+            "custom-name": "Footer",
+            "tagName": "footer"
+          }
+        ],
+        "docEl": {
+          "attributes": {
+            "id": "i0bqil"
+          },
+          "tagName": "html"
+        },
+        "head": {
+          "attributes": {
+            "id": "ij5pqw"
+          },
+          "type": "head"
+        },
+        "publicStates": [],
+        "stylable": [
+          "background",
+          "background-color",
+          "background-image",
+          "background-repeat",
+          "background-attachment",
+          "background-position",
+          "background-size"
+        ],
+        "type": "wrapper"
+      },
+      "id": "L5AkH6EswAcrZFei"
+    }
+  ],
+  "id": "guides",
+  "name": "guides"
+}
